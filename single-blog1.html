@@ -22,7 +22,72 @@
 
 		<!-- Main CSS -->
 		<link rel="stylesheet" href="css/styles-dark.css">
-		
+
+
+				<style>    
+				* {    
+				  box-sizing: border-box;    
+				}    
+				    
+				input[type=text], select, textarea {    
+				  width: 70%;    
+				  padding: 12px;    
+				  border: 1px solid rgb(70, 68, 68);    
+				  border-radius: 4px;    
+				  resize: vertical;    
+				}    
+				input[type=email], select, textarea {    
+				  width: 70%;    
+				  padding: 12px;    
+				  border: 1px solid rgb(70, 68, 68);    
+				  border-radius: 4px;    
+				  resize: vertical;    
+				}    
+				    
+				label {    
+				  padding: 12px 12px 12px 0;    
+				  display: inline-block;    
+				}    
+				    
+				input[type=submit] {    
+				  background-color: rgb(37, 116, 161);    
+				  color: skyblue;    
+				  padding: 12px 20px;    
+				  border: none;    
+				  border-radius: 4px;    
+				  cursor: pointer;    
+				  float: right;    
+				}    
+				    
+				input[type=submit]:hover {    
+				  background-color: #45a049;    
+				}    
+				    
+				.container {    
+				  border-radius: 5px; 
+				  padding: 20px;    
+				}    
+				    
+				.col-25 {    
+				  float: left;    
+				  width: 25%;    
+				  margin-top: 6px;    
+				}    
+				    
+				.col-75 {    
+				  float: left;    
+				  width: 75%;    
+				  margin-top: 6px;    
+				}    
+				    
+				/* Clear floats after the columns */    
+				.row:after {    
+				  content: "";    
+				  display: table;    
+				  clear: both;    
+				} 		
+				/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
+			</style>  	
 	</head>
 	<body>
 		<!-- Menubar -->
@@ -39,17 +104,17 @@
 								<a class="nav-link pl-lg-0" href="index-dark.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="blog-dark.html">Blog</a>
+								<a class="nav-link" href="blog-dark.html">Lessons</a>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a class="nav-link" href="single-blog-dark.html">Single Blog</a>
-							</li>
+							</li> -->
 							<li class="nav-item">
-								<a class="nav-link" href="work-dark.html">Works</a>
+								<a class="nav-link" href="work-dark.html">Articles</a>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a class="nav-link" href="single-work-dark.html">Single Work</a>
-							</li>
+							</li> -->
 						</ul>
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -111,46 +176,51 @@
 								<p class="mb-0">The Neurobiology of Everyday Life. Everyday life, daily life or routine life comprises the ways in which people typically act, think, and feel on a daily basis.</p>
 							</blockquote>
 							<p class="mb-0">Go through the below video content to know the subject in depth. These videos are in malayalam language and we may come up with other languages very soon...</p>
-							<p class="mb-0"><br></p>
+							<p class="mb-0"><br></p>					
+														
 
-							<table>
+							<table class="collapsetable" border="1">
+							<caption><b>Genral Table Border</b></caption>
 							  <tr>
 							    <th>Subject</th>
 							    <th>Video</th>							    
 							  </tr>
 							  <tr>
 							    <td>1. Introduction</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 1</a></td>
+							    <!--<td><a href="https://youtu.be/X7EQf-fCARE">Video 1</a></td> -->
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/X7EQf-fCARE?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>2. What is Life?</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 2</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/MJgEYjC8UTw?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>3. What is Life in Body?</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 3</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/kI0NfoQw-5A?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>4. What is Life in Spirit?</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 4</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/tzjDW75n-00?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>5. What is Soul?</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 5</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/-DN9KTlc7MU?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>6. What are the Five Senses in the Body?&emsp;</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 6</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/zR2IGer6HnE?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>7. What are the Five Senses in the Spirit?&emsp;</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 7</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/bTzR2cvOGNo?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
 							  <tr>
 							    <td>8. Conclusion</td>
-							    <td><a href="https://youtu.be/X6DIcXwHoNY">Video 8</a></td>
+							    <td><iframe allowFullScreen='allowFullScreen' width="240" height="140" src="http://www.youtube.com/embed/kWbX4rDsrGI?wmode=transparent&controls=0" seamless/></iframe></td>
 							  </tr>
-							</table>
+							</table>					
+										          
+
 							<p class="mb-0"><br></p>
 							<p class="mb-0">At birth, we are trained to sustain physical life. But the life in our spirit remains as a seed without sprouting. Let's see in the next session how we can nurture and nurture our spiritual life in a fruitful way. </p>
 							<p class="mb-0"><br></p>
@@ -189,12 +259,74 @@
 							</div>
 							<div class="col-sm-12 text-center cp">
 								<strong class="d-block">© Copyright 2020 | ManojKG Portfolio | All Rights Reserved</strong>
-								<img src="img/signature-dark.png" alt="My Signature" title="Signature" class="signature mt-2">
+								<img src="img/signature.png" alt="My Signature" title="Signature" class="signature mt-2">
 							</div>
 						</div>
 					</div>
 			</section>
 			<!-- End Contact Section -->
+			
+ 			<div class="col-sm-12 text-center">
+				<h2 class="display-5 font-weight-bold mb-5">Feed Back Form</h2> 
+				<div class="container">    
+				  <form>    
+				  	<div class="col-sm-10 offset-sm-1">
+					    <div class="row">    
+					      <div class="col-25">    
+					        <label for="fname">First Name</label>    
+					      </div>    
+					      <div class="col-75">    
+					        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+					      </div>    
+					    </div> 
+					</div>   
+				    <div class="col-sm-10 offset-sm-1">
+					    <div class="row">    
+					      <div class="col-25">    
+					        <label for="lname">Last Name</label>    
+					      </div>    
+					      <div class="col-75">    
+					        <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+					      </div>    
+					    </div> 
+					</div>    
+					<div class="col-sm-10 offset-sm-1">
+					    <div class="row">    
+					      <div class="col-25">    
+					        <label for="lname">Mobile No.</label>    
+					      </div>    
+					      <div class="col-75">    
+					        <input type="text" id="mobile" name="mobile" placeholder="Your mobile number..">    
+					      </div>    
+					    </div> 
+					</div>  
+				    <div class="col-sm-10 offset-sm-1">
+					    <div class="row">    
+					        <div class="col-25">    
+					          <label for="email">Email Add</label>    
+					        </div>    
+					        <div class="col-75">    
+					          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+					        </div>    
+					     </div> 
+				  	</div>    
+ 					<div class="col-sm-10 offset-sm-1">
+					    <div class="row">    
+					      <div class="col-25">    
+					        <label for="feed_back">Feed Back</label>    
+					      </div>    
+					      <div class="col-75">    
+					        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+					      </div>    
+				    	</div> 
+					</div> 
+				     
+				    <div class="row">    
+				      <input type="submit" value="Submit" style="margin:0px auto; display:block;">    
+				    </div>     
+				  </form>    
+				</div> 
+			</div>
 		</main>
 		
 		<!-- JQuery -->
